@@ -10,5 +10,5 @@ xhttp.send();
 function myFunction(xml) {
     var xmlDoc = xml.responseXML;
     document.getElementById("misol").innerHTML =
-    xmlDoc.getElementsByTagName("distrybut3")[0].childNodes[0].nodeValue;
+    xmlDoc.getElementsByTagName("distrybut3").childNodes[0].nodeValue;
 }
