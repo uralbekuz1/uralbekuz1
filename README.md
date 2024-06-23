@@ -1,0 +1,1 @@
+https://uralbek.uz/databa
