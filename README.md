@@ -1,1 +1,3 @@
-https://uralbek.uz/databa
+https://uralbek.uz/database
+
+XML ma‘lumotlar bazasi uchun ombor
