@@ -12,7 +12,3 @@ function myFunction(xml) {
     document.getElementById("misol").innerHTML =
     xmlDoc.getElementsByTagName("distrybut3")[0].childNodes[0].nodeValue;
 }
-
-
-// gggg
-document.getElementById("demo1").innerHTML = "Hello World!";
