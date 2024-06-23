@@ -4,13 +4,13 @@ xhttp.onreadystatechange = function() {
     myFunction(this);
     }
 };
-xhttp.open("GET", "http://uralbekuz1.netlify.app/ex.xml", true);
+xhttp.open("GET", "http://uralbekuz1.netlify.app/example.xml", true);
 xhttp.send();
 
 function myFunction(xml) {
     var xmlDoc = xml.responseXML;
     document.getElementById("demo").innerHTML =
-    xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+    xmlDoc.getElementsByTagName("distrybut3")[0].childNodes[0].nodeValue;
 }
 
 
