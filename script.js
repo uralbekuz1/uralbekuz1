@@ -13,6 +13,7 @@ function myFunction(xml) {
     xmlDoc.getElementsByTagName("distrybut3")[0][1].childNodes[0].nodeValue;
 }
 
+
 function myFunction(xml) {
     var xmlDoc = xml.responseXML;
     document.getElementById("misqol").innerHTML =
