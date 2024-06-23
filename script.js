@@ -15,6 +15,6 @@ function myFunction(xml) {
 
 function myFunction(xml) {
     var xmlDoc = xml.responseXML;
-    document.getElementById("misol1").innerHTML =
+    document.getElementById("misqol").innerHTML =
     xmlDoc.getElementsByTagName("distrybut4")[0][1].childNodes[0].nodeValue;
 }
